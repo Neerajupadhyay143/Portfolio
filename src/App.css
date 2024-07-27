@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .heroButton {
+        @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-xs tracking-widest text-gray-500 transition-all hover:border-[#ac5aff] hover:text-[#ac5aff]/40 xl:m-1 z-20 items-center
+    }
+
+    .contactInput {
+        @apply outline-none bg-slate-400/10 rounded-sm border-b px-3 py-4 border-[#ae36ff]/40 text-gray-500 transition-all focus:border-[#ae36ff] focus:text-[#ae36ff] hover:border-[#ae36ff]
+    }
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+    scroll-behavior: smooth !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.description-text {
+    font-size: x-small;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.image-box {
+    border-radius: 100%;
+    box-shadow: 0px 0px 300px 10px #ac5aff;
+    
 }
