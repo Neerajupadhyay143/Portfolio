@@ -35,7 +35,7 @@ function Projects() {
             <div className='relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20'>
                 {
                     projects.map((project, i) => (
-                        <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
+                        <div className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20  h-screen'>
                             {project.image.endsWith('.mp4') ? (
 
 
@@ -46,7 +46,7 @@ function Projects() {
                                     loop
                                     muted
 
-                                    width="40%"
+                                    width="20%"
                                     height="auto"
                                     max-Width="20%"
                                     className="lg:w-8 lg:h-44 object-cover"
