@@ -35,7 +35,7 @@ function Header() {
 
                 className='flex flex-row items-center'>
                 <SocialIcon
-                    url='https://www.freelancer.com/u/Neerajsharma013'
+                    url='https://github.com/Neerajupadhyay143'
                     bgColor='transparent'
                     fgColor='#ac5aff' />
 

@@ -74,6 +74,10 @@ function Projects() {
                 }
             </div>
             <div className='w-full absolute top-[30%] bg-[#ae36ff]/40 left-0 h-[500px] -skew-y-12' />
+
+
+
+            
         </motion.div>
 
 
